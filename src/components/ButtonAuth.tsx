@@ -15,7 +15,7 @@ export default function ButtonAuth() {
         Signed in as {session.user?.email} <br />
         <button
           onClick={() => signOut()}
-          className="btn btn-danger"
+          className="bg-red-500 text-white px-4 py-2 rounded"
         >
           Sign out
         </button>
@@ -27,7 +27,7 @@ export default function ButtonAuth() {
       Not signed in <br />
       <button
         onClick={() => signIn()}
-        className="btn btn-primary"
+        className="bg-blue-500 text-white px-4 py-2 rounded"
       >
         Sign in
       </button>

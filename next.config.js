@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  env: {
+    SECRET: process.env.AUTH_SECRET,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
